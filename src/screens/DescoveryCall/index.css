@@ -1,0 +1,37 @@
+.table-container {
+    /* padding: 24px; */
+    max-width: 100%;
+    overflow-x: auto;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .discovery-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .discovery-table th,
+  .discovery-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  .discovery-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .discovery-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .discovery-table tr:hover {
+    background-color: #eef1f6;
+  }
+  

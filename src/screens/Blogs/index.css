@@ -1,0 +1,59 @@
+.blog-form {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .blog-form input,
+  .blog-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .blog-form button {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .blog-form button:hover {
+    background-color: #334155;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .blog-item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px solid #cbd5e1;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .link-delete-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cadetblue;
+  }
+
+.link-delete-icon a {
+    font-size: 15px;
+    color: #e3041d;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    margin-right: 5px;
+}

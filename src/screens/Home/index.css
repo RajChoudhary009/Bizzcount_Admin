@@ -1,0 +1,10 @@
+.dashboard-container {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 300px; /* match sidebar width */
+  padding: 20px;
+  width: calc(100% - 300px);
+  box-sizing: border-box;
+}
